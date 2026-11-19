@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("regression_model")
+model = joblib.load("regression_model.joblib")
 
 # App title
 st.title("Athlete Injury")
